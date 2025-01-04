@@ -2,8 +2,8 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "./node_modules/.bin/astro dev",
-      "name": "Development-Blog",
+      "command": "./node_modules/",
+      "name": "Blog-Hx",
       "request": "launch",
       "type": "node-terminal"
     }
