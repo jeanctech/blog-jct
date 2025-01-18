@@ -3,7 +3,7 @@
   "configurations": [
     {
       "command": "./node_modules/",
-      "name": "Blog-Hx",
+      "name": "Sites-Blog",
       "request": "launch",
       "type": "node-terminal"
     }
