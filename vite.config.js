@@ -1,6 +1,6 @@
-import { defineConfig } from "vite";
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
 
-//Todo - https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [],
+	plugins: [sveltekit()]
 });
