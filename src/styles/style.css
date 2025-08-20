@@ -34,8 +34,13 @@ h1 {
   color: #ea9d34;
 }
 
-small{color: #eb6f92;}
-strong, .small-header{color: #56949f;}
+small {
+  color: #eb6f92;
+}
+strong,
+.small-header {
+  color: #56949f;
+}
 
 ul,
 li,
@@ -83,7 +88,7 @@ nav {
   place-content: center;
 }
 
-#div-main{
+#div-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,4 +100,5 @@ p {
   margin: 0.5rem;
   padding: 0.5rem;
   color: #d0c7db;
+  text-align: center;
 }

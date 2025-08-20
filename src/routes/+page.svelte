@@ -6,7 +6,7 @@
 <main>
   <center>
     <header>
-      <h1>Blog-Jct <br /> @jeanctech</h1>
+      <h1>Blog-Jct @jeanctech</h1>
       <br />
       <h2>Jean Carlos Jimenez</h2>
       <small>Desarrollador Web - Frontend Junior</small>
@@ -37,7 +37,7 @@
     <center>
       <p>
         Este es un espacio donde comparto mis conocimientos y experiencias en el
-        desarrollo web. <br> Aquí encontrarás artículos sobre tecnologías, proyectos
+        <br /> desarrollo web. Aquí encontrarás artículos sobre tecnologías, proyectos
         y más.
       </p>
     </center>
@@ -46,8 +46,8 @@
     <h2>Sobre mi</h2>
     <center>
       <p>
-        Soy un desarrollador web apasionado por aprender y compartir. <br> En este
-        blog, encontrarás artículos que reflejan mi viaje en el mundo del
+        Soy un desarrollador web apasionado por aprender y compartir. En este
+        blog, <br /> encontrarás artículos que reflejan mi viaje en el mundo del
         desarrollo web.
       </p>
     </center>
@@ -56,9 +56,9 @@
     <h2>Mis Blogs</h2>
     <center>
       <p>
-        Aquí puedes explorar mis últimos blogs y artículos. <br> Cada uno está
-        diseñado para ofrecerte información valiosa y actualizada sobre el mundo
-        del desarrollo web.
+        Aquí puedes explorar mis últimos blogs y artículos. Cada uno está
+        diseñado para <br /> ofrecerte información valiosa y actualizada sobre el
+        mundo del desarrollo web.
       </p>
     </center>
   </div>
@@ -67,8 +67,8 @@
     <center>
       <p>
         Descubre las tecnologías y herramientas que utilizo en mis proyectos.
-        Desde frameworks hasta lenguajes <br> de programación, aquí encontrarás todo
-        lo que necesitas saber sobre mi stack tecnológico.
+        Desde frame <br>works hasta lenguajes de programación, aquí
+        encontrarás todo lo que necesitas sa<br>ber sobre mi stack tecnológico.
       </p>
     </center>
   </div>
@@ -77,8 +77,8 @@
     <center>
       <p>
         Explora mis proyectos más recientes. Cada proyecto es una oportunidad
-        para aprender y crecer <br> como desarrollador, y estoy emocionado de
-        compartirlos contigo.
+        para apren<br>der y crecer como desarrollador, y estoy emocionado de compartirlos
+        contigo y mas.
       </p>
     </center>
   </div>
