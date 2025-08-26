@@ -115,16 +115,16 @@ p {
   letter-spacing: 0.3px;
 }
 
-#p{
+#p {
   text-align: center;
 }
 
-fieldset{
-  border: 1px solid #524c7a;
+fieldset {
+  border: 1px solid #413c61;
   padding: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.7em;
   border-radius: 8px;
-  background-color: #1f1d2e;
+  background-color: #26243b;
 }
 
 /* Footer */
@@ -139,6 +139,13 @@ footer {
 
 footer p {
   margin: 0.5em 0;
+}
+
+#a-footer {
+  margin: 0.5rem;
+  color: #c4a7e7;
+  text-shadow: 0 0 1px #6e6a86;
+  text-decoration: underline;
 }
 
 .center {

@@ -5,28 +5,28 @@
   <header>
     <h1>Blog-Jct</h1>
     <p id="p" class="strong">
-      Un espacio personal para pensamientos, reflexiones e inspiraciones.
+      Compartiendo conocimiento y recursos sobre desarrollo web y tecnología.
     </p>
   </header>
 
   <div class="menu">
-    <a href="#inicio">Sobre Mí</a>
-    <a href="#pensamientos">Últimos Artículos</a>
-    <a href="#inspiraciones">Inspiraciones</a>
-    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#articulos">Últimos Artículos</a>
+    <a href="#recursos">Recursos Gratuitos</a>
+    <a href="#tutoriales">Tutoriales Express</a>
   </div>
-
-  <section id="inicio">
+  <section id="sobre-mi">
     <h2>Sobre Mí</h2>
     <code>
       <code class="strong">// ...existing code...</code>
       <br />
-      Hola, soy Jeanc. Apasionado del frontend, disfruto crear interfaces limpias
+      Hola, soy jeanctech. Apasionado del frontend, disfruto crear interfaces limpias
       y rápidas con Vite, Tailwind CSS, Vue, React y Svelte. Me encanta optimizar
       mi setup con editores minimalistas y el tema Rosé Pine. Siempre busco el equilibrio
-      entre eficiencia, estética y una gran experiencia de usuario.
+      entre eficiencia, estética y una gran experiencia de usuario y crear muchas
+      cosas nuevas.
       <br />
-      <code>..//</code>
+      <code class="strong">..//</code>
     </code>
     <br />
     <br />
@@ -55,16 +55,26 @@
         <span class="tag">Hooks</span>
         <span class="tag">Techologia</span>
       </div>
+      <br />
+      <span class="strong"> Svelte vs React: ¿Cuál elegir en 2025? </span>
+      <br />
+      <code>
+        Un análisis comparativo entre Svelte y React, considerando factores como
+        rendimiento, facilidad de uso y comunidad y casos de uso recomendados.
+      </code>
+      <div class="tags">
+        <span class="tag">Svelte</span>
+        <span class="tag">Frameworks</span>
+        <span class="tag">React</span>
+      </div>
     </div>
-    <ul class="ver-mas">
-      <li><a href="/">Ver más entradas →</a></li>
-    </ul>
+    <center><a href="/">Ver más entradas →</a></center>
   </section>
 
   <hr />
 
-  <section id="pensamientos">
-    <h2>Pensamientos al Azar</h2>
+  <section id="articulos">
+    <h2>Recursos Gratuitos</h2>
 
     <div class="post">
       <h3>Freebies de diseño</h3>
@@ -79,6 +89,9 @@
         <span class="tag">Fuentes</span>
         <span class="tag">Recursos</span>
       </div>
+      <ul class="ver-mas">
+        <li><a href="/">Ver Link →</a></li>
+      </ul>
     </div>
 
     <div class="post">
@@ -94,6 +107,9 @@
         <span class="tag">Musica</span>
         <span class="tag">Coding</span>
       </div>
+      <ul class="ver-mas">
+        <li><a href="/">Ver Link →</a></li>
+      </ul>
     </div>
 
     <div class="post">
@@ -109,20 +125,22 @@
         <span class="tag">Gratuitos</span>
         <span class="tag">Tecnologia</span>
       </div>
+      <ul class="ver-mas">
+        <li><a href="/">Ver Link →</a></li>
+      </ul>
     </div>
 
-    <ul class="ver-mas">
-      <li><a href="/">Ver más entradas →</a></li>
-    </ul>
+    <center><a href="/">Ver más entradas →</a></center>
   </section>
 
   <hr />
 
-  <section id="inspiraciones">
+  <section id="recursos">
     <h2>Citas que Inspiran</h2>
 
     <div class="post">
-      <h4>Autor:</h4>
+      <small class="strong">🗪</small>
+      <br />
       <span class="quote">Paul Graham</span>
       <br />
       <fieldset>
@@ -134,7 +152,8 @@
     </div>
 
     <div class="post">
-      <h4>Autor:</h4>
+      <small class="strong">🗪</small>
+      <br />
       <span class="quote">Richard Stallman</span>
       <br />
       <fieldset>
@@ -145,80 +164,96 @@
     </div>
 
     <div class="post">
-      <h4>Autor:</h4>
+      <small class="strong">🗪</small>
+      <br />
       <span class="quote">Steve Jobs</span>
       <br />
       <fieldset>
         <code> "La innovación distingue entre un líder y un seguidor." </code>
       </fieldset>
     </div>
-    <ul class="ver-mas">
-      <li><a href="/">Ver más entradas →</a></li>
-    </ul>
+    <center><a href="/">Ver más entradas →</a></center>
   </section>
 
   <hr />
 
-  <section id="sobre-mi">
+  <section id="tutoriales">
     <h2>Tutoriales Express</h2>
 
     <div class="post">
-      <p class="strong">Automatización con GitHub Actions</p>
-      <span class="post-date">22 de febrero, 2025</span>
-      <br />
+      <h4>Automatización con GitHub Actions</h4>
+      <p class="post-date">22 de febrero, 2025</p>
       <code>
         Una guía rápida para configurar flujos de trabajo automatizados en tus
         proyectos usando GitHub Actions, desde despliegues hasta pruebas
         continuas.
       </code>
-          <ul class="ver-mas">
-      <li><a href="/">Ver Link →</a></li>
-    </ul>
+      <ul class="ver-mas">
+        <li><a href="/">Ver Link →</a></li>
+      </ul>
     </div>
 
     <div class="post">
-      <p class="strong">Dark Mode en CSS Variables</p>
-      <span class="post-date">18 de febrero, 2025</span>
-      <br />
+      <h4>Dark Mode en CSS Variables</h4>
+      <p class="post-date">18 de febrero, 2025</p>
       <code>
         Aprende a implementar un modo oscuro en tu sitio web utilizando CSS
         Variables para una transición suave y fácil de mantener.
       </code>
-      <br>
+      <br />
       <ul class="ver-mas">
-      <li><a href="/">Ver Link →</a></li>
-    </ul>
+        <li><a href="/">Ver Link →</a></li>
+      </ul>
     </div>
 
     <div class="post">
-      <p class="strong">Python Web Scraping con BeautifulSoup</p>
-      <span class="post-date">14 de febrero, 2025</span>
-      <br />
+      <h4>Python Web Scraping con BeautifulSoup</h4>
+      <p class="post-date">14 de febrero, 2025</p>
       <code>
         Un tutorial paso a paso para extraer datos de páginas web usando Python
-        y la biblioteca BeautifulSoup, ideal para proyectos de análisis de datos
-        y automatización.
+        y la biblioteca BeautifulSoup, ideal para proyectos de análisis de
+        datos.
       </code>
-      <br>
+      <br />
       <ul class="ver-mas">
-      <li><a href="/">Ver Link →</a></li>
-    </ul>
+        <li><a href="/">Ver Link →</a></li>
+      </ul>
     </div>
-    <ul class="ver-mas">
-      <li><a href="/">Ver más entradas →</a></li>
-    </ul>
+    <center><a href="/">Ver más entradas →</a></center>
   </section>
 
   <div class="navigation">
-    <a href="/">← Entradas anteriores</a>
     <a href="/">Volver al inicio ↑</a>
-    <a href="/">Entradas recientes →</a>
   </div>
 
   <footer>
-    <p id="p">© 2025 CodeReflections - Hecho con ♥ y mucho café</p>
-    <p id="p">Encuéntrame en: GitHub | Twitter | LinkedIn</p>
-    <p id="p">Todos los derechos reservados - Algunos derechos reservados</p>
+    <p id="p"><i>© 2025 / Blog-Jct - Hecho con ♥ y mucho café</i></p>
+    <p id="p">
+      <small class="h2">Encuéntrame en:</small>
+      <a
+        id="a-footer"
+        href="https://github.com/jeanctech"
+        target="_blank"
+        rel="noopener noreferrer">Github</a
+      >
+      <strong class="post-date">|</strong>
+      <a
+        href="https://x.com/jeanctech"
+        id="a-footer"
+        target="_blank"
+        rel="noopener noreferrer">Twitter</a
+      >
+      <strong class="post-date">|</strong>
+      <a
+        href="https://www.linkedin.com/in/jeanctech/"
+        id="a-footer"
+        target="_blank"
+        rel="noopener noreferrer">Linkedin</a
+      >
+    </p>
+    <cite id="p">
+      <b>Todos los derechos reservados - Algunos derechos reservados.</b>
+    </cite>
   </footer>
 </main>
 
