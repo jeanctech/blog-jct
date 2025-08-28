@@ -4,9 +4,9 @@
 <main>
   <header>
     <h1>Blog-Jct</h1>
-    <p id="p" class="strong">
+    <strong id="p" class="strong">
       Compartiendo conocimiento y recursos sobre desarrollo web y tecnología.
-    </p>
+    </strong>
   </header>
 
   <div class="menu">
@@ -17,9 +17,8 @@
   </div>
   <section id="sobre-mi">
     <h2>Sobre Mí</h2>
-    <code>
+    <code class="about">
       <code class="strong">// ...existing code...</code>
-      <br />
       Hola, soy jeanctech. Apasionado del frontend, disfruto crear interfaces limpias
       y rápidas con Vite, Tailwind CSS, Vue, React y Svelte. Me encanta optimizar
       mi setup con editores minimalistas y el tema Rosé Pine. Siempre busco el equilibrio
@@ -29,7 +28,6 @@
       <code class="strong">..//</code>
     </code>
     <br />
-    <br />
     <div class="post">
       <h2>Últimos Artículos</h2>
       <span class="strong">CSS Grid vs Flexbox: Guía definitiva</span>
@@ -38,34 +36,51 @@
         Una comparación detallada entre CSS Grid y Flexbox, explorando sus
         fortalezas, debilidades y casos de uso ideales para cada uno.
       </code>
-      <div class="tags">
-        <span class="tag">Css</span>
-        <span class="tag">Grid</span>
-        <span class="tag">Flex</span>
+      <div class="div-post">
+        <div class="tags">
+          <span class="tag">Css</span>
+          <span class="tag">Grid</span>
+          <span class="tag">Flex</span>
+          <br />
+        </div>
+        <div>
+          <a class="a-tags" href="/">Ver →</a>
+        </div>
       </div>
-      <br />
+      <hr />
       <span class="strong">React Hooks: Más allá del useState</span>
       <br />
       <code>
         Explorando hooks avanzados en React para manejar efectos secundarios,
         contextos y optimización de rendimiento en aplicaciones complejas.
       </code>
-      <div class="tags">
-        <span class="tag">React</span>
-        <span class="tag">Hooks</span>
-        <span class="tag">Techologia</span>
+      <div class="div-post">
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Hooks</span>
+          <span class="tag">Techologia</span>
+        </div>
+        <div>
+          <a class="a-tags" href="/">Ver →</a>
+        </div>
       </div>
-      <br />
+      <hr />
       <span class="strong"> Svelte vs React: ¿Cuál elegir en 2025? </span>
       <br />
       <code>
         Un análisis comparativo entre Svelte y React, considerando factores como
         rendimiento, facilidad de uso y comunidad y casos de uso recomendados.
       </code>
-      <div class="tags">
-        <span class="tag">Svelte</span>
-        <span class="tag">Frameworks</span>
-        <span class="tag">React</span>
+      <div class="div-post">
+        <div class="tags">
+          <span class="tag">Svelte</span>
+          <span class="tag">Frameworks</span>
+          <span class="tag">React</span>
+          <br />
+        </div>
+        <div>
+          <a class="a-tags" href="/">Ver →</a>
+        </div>
       </div>
     </div>
     <center><a href="/">Ver más entradas →</a></center>
@@ -84,14 +99,16 @@
         Desde iconos hasta plantillas, es un tesoro para cualquiera que busque
         inspiración sin gastar un centavo.
       </code>
-      <div class="tags">
-        <span class="tag">Iconos</span>
-        <span class="tag">Fuentes</span>
-        <span class="tag">Recursos</span>
+      <div class="div-post">
+        <div class="tags">
+          <span class="tag">Iconos</span>
+          <span class="tag">Fuentes</span>
+          <span class="tag">Recursos</span>
+        </div>
+        <div>
+          <a class="a-tags" href="/">Ver →</a>
+        </div>
       </div>
-      <ul class="ver-mas">
-        <li><a href="/">Ver Link →</a></li>
-      </ul>
     </div>
 
     <div class="post">
@@ -102,14 +119,16 @@
         de música instrumental y electrónica suave que mantiene mi mente
         enfocada sin distracciones.
       </code>
-      <div class="tags">
-        <span class="tag">Playlist</span>
-        <span class="tag">Musica</span>
-        <span class="tag">Coding</span>
+      <div class="div-post">
+        <div class="tags">
+          <span class="tag">Playlist</span>
+          <span class="tag">Musica</span>
+          <span class="tag">Coding</span>
+        </div>
+        <div>
+          <a class="a-tags" href="/">Ver →</a>
+        </div>
       </div>
-      <ul class="ver-mas">
-        <li><a href="/">Ver Link →</a></li>
-      </ul>
     </div>
 
     <div class="post">
@@ -120,14 +139,16 @@
         fundamentos de programación hasta guías avanzadas sobre frameworks
         modernos, es un recurso invaluable para cualquier desarrollador.
       </code>
-      <div class="tags">
-        <span class="tag">Libros</span>
-        <span class="tag">Gratuitos</span>
-        <span class="tag">Tecnologia</span>
+      <div class="div-post">
+        <div class="tags">
+          <span class="tag">Libros</span>
+          <span class="tag">Gratuitos</span>
+          <span class="tag">Tecnologia</span>
+        </div>
+        <div>
+          <a class="a-tags" href="/">Ver →</a>
+        </div>
       </div>
-      <ul class="ver-mas">
-        <li><a href="/">Ver Link →</a></li>
-      </ul>
     </div>
 
     <center><a href="/">Ver más entradas →</a></center>
@@ -188,9 +209,9 @@
         proyectos usando GitHub Actions, desde despliegues hasta pruebas
         continuas.
       </code>
-      <ul class="ver-mas">
-        <li><a href="/">Ver Link →</a></li>
-      </ul>
+      <br />
+      <br />
+      <a class="a-tags" href="/">Ver →</a>
     </div>
 
     <div class="post">
@@ -201,9 +222,8 @@
         Variables para una transición suave y fácil de mantener.
       </code>
       <br />
-      <ul class="ver-mas">
-        <li><a href="/">Ver Link →</a></li>
-      </ul>
+
+      <br /> <a class="a-tags" href="/">Ver →</a>
     </div>
 
     <div class="post">
@@ -215,15 +235,16 @@
         datos.
       </code>
       <br />
-      <ul class="ver-mas">
-        <li><a href="/">Ver Link →</a></li>
-      </ul>
+      <br />
+      <a class="a-tags" href="/">Ver →</a>
     </div>
     <center><a href="/">Ver más entradas →</a></center>
   </section>
 
   <div class="navigation">
-    <a href="/">Volver al inicio ↑</a>
+    <fieldset>
+      <a href="/">Volver ↑</a>
+    </fieldset>
   </div>
 
   <footer>
@@ -236,14 +257,14 @@
         target="_blank"
         rel="noopener noreferrer">Github</a
       >
-      <strong class="post-date">|</strong>
+      <strong class="post-date">-</strong>
       <a
         href="https://x.com/jeanctech"
         id="a-footer"
         target="_blank"
         rel="noopener noreferrer">Twitter</a
       >
-      <strong class="post-date">|</strong>
+      <strong class="post-date">-</strong>
       <a
         href="https://www.linkedin.com/in/jeanctech/"
         id="a-footer"
@@ -254,6 +275,8 @@
     <cite id="p">
       <b>Todos los derechos reservados - Algunos derechos reservados.</b>
     </cite>
+    <br />
+    <br />
   </footer>
 </main>
 
