@@ -1,1 +1,1 @@
-# Blog-Jct
+# blog-jct
