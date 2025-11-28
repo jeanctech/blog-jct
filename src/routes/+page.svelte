@@ -1,10 +1,11 @@
 <script>
-  import "../app.css";
+  import "../styles/app.css";
+  let symbols = "</>";
 </script>
 
 <main>
   <header>
-    <h1>Blog-Jct</h1>
+    <h1>Blog-Jct <span id="symbol">{symbols}</span></h1>
     <strong id="p" class="strong">
       Compartiendo conocimiento y recursos sobre desarrollo web y tecnología.
     </strong>
@@ -13,11 +14,11 @@
   <div class="menu">
     <a href="#sobre-mi">Sobre Mí</a>
     <a href="#articulos">Últimos Artículos</a>
-    <a href="#recursos">Recursos Gratuitos</a>
-    <a href="#tutoriales">Tutoriales Express</a>
+    <a href="#recursos">Recursos Free</a>
+    <a href="#tips">Tips Express</a>
   </div>
   <section id="sobre-mi">
-    <h2>Sobre Mí</h2>
+    <h2>Sobre Mí <span id="symbol">⚒</span></h2>
     <code class="about">
       <code class="strong">// ...existing code...</code>
       Hola, soy jeanctech. Apasionado del frontend, disfruto crear interfaces limpias
@@ -29,8 +30,8 @@
       <code class="strong">..//</code>
     </code>
     <br />
-    <div class="post">
-      <h2>Últimos Artículos</h2>
+    <div class="post" id="articulos">
+      <h2>Últimos Artículos <span id="symbol">⤵</span></h2>
       <span class="strong">CSS Grid vs Flexbox: Guía definitiva</span>
       <br />
       <code>
@@ -76,7 +77,7 @@
         <div class="tags">
           <span class="tag">Svelte</span>
           <span class="tag">Frameworks</span>
-          <span class="tag">React</span>
+          <span class="tag">Kits</span>
           <br />
         </div>
         <div>
@@ -89,8 +90,8 @@
 
   <hr />
 
-  <section id="articulos">
-    <h2>Recursos Gratuitos</h2>
+  <section id="recursos">
+    <h2>Recursos Free <span id="symbol">☑</span></h2>
 
     <div class="post">
       <h3>Freebies de diseño</h3>
@@ -158,7 +159,7 @@
   <hr />
 
   <section id="recursos">
-    <h2>Citas que Inspiran</h2>
+    <h2>Citas que Inspiran <span id="symbol">ⓘ</span></h2>
 
     <div class="post">
       <small class="strong">🗪</small>
@@ -199,8 +200,8 @@
 
   <hr />
 
-  <section id="tutoriales">
-    <h2>Tutoriales Express</h2>
+  <section id="tips">
+    <h2>Tips Express <span id="symbol">✈</span></h2>
 
     <div class="post">
       <h4>Automatización con GitHub Actions</h4>
@@ -274,7 +275,7 @@
       >
     </p>
     <cite id="p">
-      <b>Todos los derechos reservados - Algunos derechos reservados.</b>
+      <b>Hecho con Svelte y Rose Pine Theme con Vite.js y Bun.js - JCT</b>
     </cite>
     <br />
     <br />
